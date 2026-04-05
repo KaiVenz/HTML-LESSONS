@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Table</title>
+</head>
+<body>
+    
+    <style>
+    
+  table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+    </style>
+
+    <table border="1" style="text-align: center; width: 30%; height: 50%; background-color: lightblue;">
+        <thead>
+            <th>Section</th>
+            <th colspan="2">Status</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">ITE 101</td>
+                <td>Regular</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>Irregular</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+            <td>ITE201</td>
+            <td>Regular</td>
+            <td>15</td>
+        </tr>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
