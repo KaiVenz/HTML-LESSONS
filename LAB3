@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National University Announcement</title>
+
+    <link rel="stylesheet" href="Gavino_style.css">
+</head>
+<body>
+
+    <style> 
+    
+    .para{
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 15pt;
+
+    }
+
+</style>
+
+    
+    <h1>National University Clark</h1>
+    <b style="color: red; font-family: 'Franklin Gothic Medium'; font-size: 20pt;">Enrollment is Now Open!</b>
+    <br>
+
+    <div class="para">Enrollment for the 3rd Term A.Y. 2025–2026 at National University Clark is officially EXTENDED 
+        until March 11, 2026, for all Transferees and Continuing Students.</div>
+
+    <div class="para">Year Students for Academic Year 2026-2027 can also jumpstart their future by registering here for free to secure their slots today.</div>
+        
+    <div class="para">Don’t miss your chance to join the Bulldog family and show us the Best iN U! 💛💙</div>
+
+    <h3>Programs Offered:</h3>
+    <ul>
+        <li>Computer Programming</li>
+        <li>Tourism</li>
+        <li>Business Management</li>
+    </ul>
+
+    <h3>Enrollment Steps:</h3>
+
+    <ol>
+        <li>Fill out the form</li>
+        <li>Submit requirements</li>
+        <li>Pay registration fee</li>
+    </ol>
+    <img src="NUCL.webp" height="400"; width="400"
+     style="border: 3px solid black; margin: 15px">
+
+</body>
+</html>
