@@ -1,0 +1,36 @@
+body{
+    background: lightgray;
+}
+h1{
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color: darkblue;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium';
+    color: darkblue;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium';
+    color: darkblue;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    color: green;
+    font-family: 'Franklin Gothic Medium';
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+    color: green;
+    font-family: 'Franklin Gothic Medium';
+}
+
+p{
+    font-family: 'Franklin Gothic Medium';
+}
