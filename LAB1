@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT ID WEB PROFILE</title>
+</head>
+<body style="background: pink; text-align: center; font-family: sans-serif;">
+    
+ulu {
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0;
+}
+
+    <h1 style="color: azure">MAXIMILIAN G. HERMANDE</h1>
+    <h2>Bachelor of Science in Information Technology</h2>
+    <h3>2024-1091120</h3>
+
+    <img src="profile.jpg" height="400"; width="400">
+    <br>
+
+    <hr>
+    <p style="color: azure">Professional Goal</p>
+    <b style="color: azure"> Network Administrator, Data Security Manager</b>
+    <p>I chose me field because I believe thta this would be the path that I will be taking. And I know that this is my passion. WOOF!!!</p>
+
+    <i> "If the plan doesn't work change the plan but never the goal." WOOF!</i>
+    <br>
+
+    <h2 style="color: azure; text-align: center">Academic Information</h2>
+    
+    <div class="ulu">
+        <ul> 2nd Year </ul>
+        <li> Database Systems, Basic Networking </li>
+        <li> Quantitative Methods </li>
+        <li> Web Systems and Technology </li>
+        <li> Adaptive, Flexible, Cooperative </li>
+    </ul>
+    
+
+    <h2 style="color: azure; text-align: center">Achievements</h2>
+    <ol>
+        <li> 1st year honors deans lister </li>
+        <li> 2nd year honors deans lister  </li>
+        <li> IT Specialist - Databases </li>
+        <li> Microsoft Office Specialist: Excel Associate(Microsoft 362 Apps) </li>
+        <li> CompTIA Fundamentals+ (ITF+) Ceritification</li>
+    </ol>
+</body>
+</html>
