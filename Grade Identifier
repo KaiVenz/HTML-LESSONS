@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading Identifier</title>
+</head>
+<body>
+    
+    <p id = "display">Grade Identifier</p>
+    <button onclick="startPrompt()">Click to Start</button>
+
+    <script>
+
+        alert("Hello User! Please Enter the General Average that you attained!")
+
+        function startPrompt(){
+
+            let grades = prompt("What is your grade?");
+            grades = Number(grades);
+
+            if(grades >= 90 && grades <= 100) {
+                let excellent = "The Grade that you attained " + grades + " is Excellent!!!";
+                document.getElementById("display").innerHTML = excellent;
+            }
+            else if(grades >= 80 && grades <= 89){
+                let vgood = "The Grade that you attained " + grades + " is Very Good!!!";
+                document.getElementById("display").innerHTML = vgood;
+            }
+            else if(grades >= 70 && grades <= 79){
+                let good = "The Grade that you attained " + grades + " is Good!!!";
+                document.getElementById("display").innerHTML = good;
+            }
+             else if(grades >= 0 && grades <= 69){
+                let ni = "The Grade that you attained " + grades + " is Needs Improvement, Better luck next time!";
+                document.getElementById("display").innerHTML = ni;
+            }
+            else{
+                let e = "Error! Please Input a Grade!";
+                document.getElementById("display").innerHTML = e;
+            }
+            
+            
+        }
+
+    </script>
+    
+</body>
+</html>
