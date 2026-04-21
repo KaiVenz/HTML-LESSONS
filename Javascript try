@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id = "display">Click the Button to Start</p>
+    <p id = "display2"></p>
+    <p id = "display3"></p>
+    <p id = "display4"></p>
+    <p id = "display5"></p>
+
+    <button onclick="startPrompt()">Click Me!</button>
+
+    <script>
+        alert("Hello World!")
+        function startPrompt(){
+            let name = prompt("What is your name?");
+            let message = "You are " + name;
+           
+            let age = prompt("What is your age?");
+            let mess = "Your age is " + age;
+
+            let address = prompt("What is your address?");
+            let add = "You live in " + address;
+
+            let favcol = prompt("What is your favorite color?");
+            let color = "You live in " + favcol;
+
+            let favhob = prompt("What is your favorite hobby?");
+            let hobbies = "You like " + favhob;
+
+            document.getElementById("display").innerHTML = message;
+            document.getElementById("display2").innerHTML = mess;
+            document.getElementById("display3").innerHTML = add;
+            document.getElementById("display4").innerHTML = color;
+            document.getElementById("display5").innerHTML = hobbies;
+        }
+    </script>
+</body>
+</html>
